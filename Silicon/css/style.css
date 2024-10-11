@@ -1,0 +1,167 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color:white;
+    --secondary-color : black;
+}
+
+.dark-them{
+    --primary-color:black;
+    --secondary-color : white;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.header{
+    background-color: var(--primary-color);
+    position: fixed;
+    padding: 20px;
+    color: var(--secondary-color) ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
+    color: var(--secondary-color);
+}
+
+.nav li:first-child{
+    color: blue;
+}
+
+.nav li:hover{
+    cursor: pointer;
+}
+
+
+
+.btn1 button{
+    background-color: rgba(0, 0, 255, 0.632);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.icons{
+    margin-top: 48px;
+    text-align: center;
+}
+
+.icons .col:hover{
+    cursor: pointer;
+    z-index: 1;
+}
+
+.icons .col p{
+    color: var(--secondary-color);
+}
+
+.landing{
+    color: var(--secondary-color);
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.landing p{
+    color: var(--secondary-color);
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.land {
+    margin: 14px;
+}
+
+.land p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    padding: 10px;
+}
+
+.land img{
+    box-sizing: border-box;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+
+.land :hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.detail{
+    margin-bottom: 84px;
+    border: 1px solid black;
+    color: var(--secondary-color);
+}
+
+.tem{
+    padding: 25px;
+}
+
+.tem i:first-child{
+    padding: 10px;
+    color: blueviolet;
+    background-color: rgba(86, 89, 115, 0.21);
+}
+
+.tem p:nth-child(2){
+    padding: 3px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form .email{
+    text-align: center;
+    padding: 25px;
+}
+
+.input input{
+    height: 40px;
+    width: 23vw;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input button{
+    background-color: rgba(0, 0, 255, 0.632);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer{
+    color: var(--secondary-color);
+}
